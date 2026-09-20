@@ -1,0 +1,131 @@
+{
+  "WELCOME_MESSAGE": "You are the hero, you must defeat all the monsters and save the kingdom!\n",
+  
+  "MASTER_MOB_POOL": {
+    "Forest": {
+      "Easy": {
+        "Slime": {"hp": 15, "attack": 2},
+        "Goblin": {"hp": 30, "attack": 5}
+      },
+      "Medium": {
+        "Dire Wolf": {"hp": 55, "attack": 10},
+        "Giant Spider": {"hp": 40, "attack": 14},
+        "Stone Golem": {"hp": 80, "attack": 12}
+      },
+      "Hard": {
+        "Forest Troll": {"hp": 120, "attack": 22},
+        "Slime King": {"hp": 200, "attack": 20}
+      }
+    },
+    "Dungeon": {
+      "Easy": {
+        "Skeleton": {"hp": 10, "attack": 4},
+        "Slime": {"hp": 15, "attack": 2}
+      },
+      "Medium": {
+        "Orc": {"hp": 70, "attack": 12}
+      },
+      "Hard": {
+        "Lich": {"hp": 180, "attack": 35}
+        
+      }
+    },
+    "Cemetary": {
+      "Easy": {
+        "Zombie": {"hp": 40, "attack": 8},
+        "Skeleton": {"hp": 10, "attack": 4}
+      },
+      "Medium": {
+        "Vampire": {"hp": 60, "attack": 12},
+        "Ghoul": {"hp": 70, "attack": 15}
+      },
+      "Hard": {
+        "Necromancer": {"hp": 150, "attack": 30},
+        "Death Knight": {"hp": 200, "attack": 25},
+        "Vampire King": {"hp": 170, "attack": 40}
+      }
+    },
+    "Ship": {
+      "Easy": {
+        "Pirate": {"hp": 20, "attack": 4},
+        "Scallywag": {"hp": 10, "attack": 5}
+      },
+      "Medium": {
+        "Sea Serpent": {"hp": 80, "attack": 15},
+        "Ghost Ship Captain": {"hp": 120, "attack": 25}
+      },
+      "Hard": {
+        "Captian": {"hp": 200, "attack": 40},
+        "Kraken": {"hp": 150, "attack": 45},
+        "Leviathan": {"hp": 250, "attack": 50}
+      }
+    }
+  },
+
+  "LOSS_MESSAGES": [
+    "You have been defeated! Better luck next time.",
+    "Game Over!",
+    "You fought bravely.",
+    "Your journey ends here. Rest and try again.",
+    "The kingdom mourns your loss.",
+    "Keep going, hero.",
+    "Nothing's left.",
+    "Ashes to ashes, dust to dust.",
+    "The monsters fear your second coming."
+  ],
+
+  "BATTLE_WIN_MESSAGES": [
+    "Congratulations!",
+    "Victory is yours!",
+    "You have triumphed!",
+    "Good luck",
+    "theres always a bigger fish",
+    "They're finally silent"
+  ],
+
+  "FLEE_MESSAGES": [
+    "Coward",
+    "leave them there bleeding?",
+    "Theres other options",
+    "As expected",
+    "You can't run away from all your problems"
+  ],
+
+  "ACT_OPTIONS": [
+    "Scan Enemy (Free action)",
+    "Taunt (Enrages enemy, lowers their defense)",
+    "Guard (Reduces next incoming damage)",
+    "Backpack (Open inventory)"
+  ],
+
+  "TAUNT_MESSAGES": [
+    "You insult them.",
+    "You do a goofy little dance.",
+    "You challenge their strength."
+  ],
+
+  "GUARD_MESSAGES": [
+"You hold your shield tight",
+"You prepare for impact",
+"You ready yourself"],
+
+  "BACKPACK_MESSAGES": [
+    "You rummage through your backpack.",
+    "You check your inventory.",
+    "You look for something useful.",
+    "An endless expanse awaits you"
+  ],
+
+  "SHOP_POOL": {
+    "Health Potion": {"price": 15, "hp_bonus": 20},
+    "Superior Health Potion": {"price": 25, "hp_bonus": 40},
+    "Iron Sword": {"price": 35, "attack_bonus": 4},
+    "Sharpening Stone": {"price": 20, "crit_bonus": 5},
+    "Superior Sharpening Stone": {"price": 50, "crit_bonus": 10},
+    "Leather Armor": {"price": 50, "hp_max_bonus": 15},
+    "Iron Armor": {"price": 75, "hp_max_bonus": 30},
+    "Superium Armor": {"price": 300, "hp_max_bonus": 120},
+    "Superium Sword": {"price": 300, "attack_bonus": 100},
+    "Fighters Garments": {"price": 100, "hp_max_bonus": 30, "attack_bonus": 10}
+  }
+}
